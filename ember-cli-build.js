@@ -5,7 +5,12 @@ const EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 
 module.exports = function(defaults) {
   let app = new EmberAddon(defaults, {
-    // Add options here
+    'esw-request-chaos': {
+      // RegExp patterns specifying which URLs to wreck chaos.
+      patterns: [
+        '/api/(.+)',
+      ]
+    }
   });
 
   /*
