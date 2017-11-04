@@ -25,7 +25,7 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-async function chaoticError() {
+function chaoticError() {
   const httpStatus = getRandomInt(500, 505);
   const responseBody = {
     errors: [
@@ -40,5 +40,5 @@ async function chaoticError() {
     JSON.stringify(responseBody),
     { status: httpStatus }
   );
-  return response;
+  return Promise.resolve(response);
 }
