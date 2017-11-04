@@ -25,8 +25,11 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-function chaoticError() {
+function chaoticError(request) {
   const httpStatus = getRandomInt(500, 505);
+  const contentType = request.headers.has('Content-Type')
+    ? request.headers.get('Content-Type')
+    : 'application/json';
   const responseBody = {
     errors: [
       {
@@ -38,7 +41,13 @@ function chaoticError() {
   }
   const response = new Response(
     JSON.stringify(responseBody),
-    { status: httpStatus }
+    {
+      status: httpStatus,
+      statusText: "Service Unavailable",
+      headers: {
+        "Content-Type": contentType
+      }
+    }
   );
   return Promise.resolve(response);
 }
