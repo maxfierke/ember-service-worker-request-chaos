@@ -1,6 +1,6 @@
 {
   "name": "ember-service-worker-request-chaos",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A service worker that wrecks chaos on your API requests.",
   "keywords": [
     "ember-addon",
