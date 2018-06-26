@@ -18,7 +18,8 @@ Find out how well your application tolerates failure!
 
 * [`ember-service-worker`](https://github.com/DockYard/ember-service-worker)
 
-## Installation
+Installation
+------------------------------------------------------------------------------
 
 * `ember install ember-service-worker` - (If you're not already using it)
 * `ember install ember-service-worker-request-chaos`
@@ -51,7 +52,7 @@ Find out how well your application tolerates failure!
 * `cd ember-service-worker-request-chaos`
 * `yarn install`
 
-## Running Tests
+### Running tests
 
 * `yarn test` (Runs `ember try:each` to test your addon against multiple Ember versions)
 * `ember test`
