@@ -4,9 +4,9 @@ const Config = require('./lib/config');
 const mergeTrees = require('broccoli-merge-trees');
 
 module.exports = {
-  name: 'ember-service-worker-request-chaos',
+  name: require('./package').name,
 
-  included: function(app) {
+  included(app) {
     this._super.included && this._super.included.apply(this, arguments);
     this.app = app;
     this.app.options = this.app.options || {};
