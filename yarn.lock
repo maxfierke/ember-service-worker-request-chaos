@@ -2002,9 +2002,9 @@ chalk@^1.0.0, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.3.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
+chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.3.1, chalk@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   dependencies:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
@@ -2530,7 +2530,7 @@ ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6
     ember-cli-version-checker "^2.1.2"
     semver "^5.5.0"
 
-ember-cli-babel@^7.0.0, ember-cli-babel@^7.5.0, ember-cli-babel@^7.8.0:
+ember-cli-babel@^7.0.0, ember-cli-babel@^7.5.0, ember-cli-babel@^7.7.0, ember-cli-babel@^7.8.0:
   version "7.11.0"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.11.0.tgz#a2f4e4f123a4690968b512b87b4ff4bfa57ec244"
   dependencies:
@@ -2700,12 +2700,6 @@ ember-cli-uglify@^2.0.0:
     broccoli-uglify-sourcemap "^2.1.1"
     lodash.defaultsdeep "^4.6.0"
 
-ember-cli-valid-component-name@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-valid-component-name/-/ember-cli-valid-component-name-1.0.0.tgz#71550ce387e0233065f30b30b1510aa2dfbe87ef"
-  dependencies:
-    silent-error "^1.0.0"
-
 ember-cli-version-checker@^2.0.0, ember-cli-version-checker@^2.1.0, ember-cli-version-checker@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ember-cli-version-checker/-/ember-cli-version-checker-2.1.2.tgz#305ce102390c66e4e0f1432dea9dc5c7c19fed98"
@@ -2713,11 +2707,11 @@ ember-cli-version-checker@^2.0.0, ember-cli-version-checker@^2.1.0, ember-cli-ve
     resolve "^1.3.3"
     semver "^5.3.0"
 
-ember-cli-version-checker@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-version-checker/-/ember-cli-version-checker-3.1.0.tgz#b18c91f1ed19dfac8b12c42ed40bba9b751f68e2"
+ember-cli-version-checker@^3.0.0, ember-cli-version-checker@^3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/ember-cli-version-checker/-/ember-cli-version-checker-3.1.3.tgz#7c9b4f5ff30fdebcd480b1c06c4de43bb51c522c"
   dependencies:
-    resolve-package-path "^1.0.6"
+    resolve-package-path "^1.2.6"
     semver "^5.6.0"
 
 ember-cli@~3.1.0:
@@ -2877,24 +2871,24 @@ ember-source-channel-url@^1.0.1:
   dependencies:
     got "^8.0.1"
 
-ember-source@~3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-3.2.2.tgz#f1b899beeb838b0866a66cd327d22e567abd8a79"
+ember-source@~3.12.0:
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-3.12.0.tgz#92f72894836d4497e704901c1d061c61b066bddf"
   dependencies:
-    broccoli-funnel "^2.0.1"
-    broccoli-merge-trees "^2.0.0"
-    chalk "^2.3.0"
+    broccoli-funnel "^2.0.2"
+    broccoli-merge-trees "^3.0.2"
+    chalk "^2.4.2"
+    ember-cli-babel "^7.7.0"
     ember-cli-get-component-path-option "^1.0.0"
     ember-cli-is-package-missing "^1.0.0"
     ember-cli-normalize-entity-name "^1.0.0"
     ember-cli-path-utils "^1.0.0"
     ember-cli-string-utils "^1.1.0"
-    ember-cli-valid-component-name "^1.0.0"
-    ember-cli-version-checker "^2.1.0"
+    ember-cli-version-checker "^3.1.3"
     ember-router-generator "^1.2.3"
     inflection "^1.12.0"
-    jquery "^3.3.1"
-    resolve "^1.6.0"
+    jquery "^3.4.1"
+    resolve "^1.11.1"
 
 ember-try-config@^2.2.0:
   version "2.2.0"
@@ -4203,9 +4197,9 @@ jquery-deferred@^0.3.0:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/jquery-deferred/-/jquery-deferred-0.3.1.tgz#596eca1caaff54f61b110962b23cafea74c35355"
 
-jquery@^3.3.1:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.0.tgz#8de513fa0fa4b2c7d2e48a530e26f0596936efdf"
+jquery@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
 
 js-levenshtein@^1.1.3:
   version "1.1.6"
@@ -5761,16 +5755,9 @@ resolve-from@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-1.0.1.tgz#26cbfe935d1aeeeabb29bc3fe5aeb01e93d44226"
 
-resolve-package-path@^1.0.11:
+resolve-package-path@^1.0.11, resolve-package-path@^1.2.6:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/resolve-package-path/-/resolve-package-path-1.2.7.tgz#2a7bc37ad96865e239330e3102c31322847e652e"
-  dependencies:
-    path-root "^0.1.1"
-    resolve "^1.10.0"
-
-resolve-package-path@^1.0.6:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/resolve-package-path/-/resolve-package-path-1.0.7.tgz#8a0be5165a95bb056580129a422ca89bf4dcae02"
   dependencies:
     path-root "^0.1.1"
     resolve "^1.10.0"
@@ -5785,15 +5772,9 @@ resolve@1.5.0:
   dependencies:
     path-parse "^1.0.5"
 
-resolve@^1.1.6, resolve@^1.10.0, resolve@^1.3.0, resolve@^1.3.3, resolve@^1.4.0, resolve@^1.5.0, resolve@^1.6.0, resolve@^1.8.1:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.10.0.tgz#3bdaaeaf45cc07f375656dfd2e54ed0810b101ba"
-  dependencies:
-    path-parse "^1.0.6"
-
-resolve@^1.3.2:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.11.0.tgz#4014870ba296176b86343d50b60f3b50609ce232"
+resolve@^1.1.6, resolve@^1.10.0, resolve@^1.11.1, resolve@^1.3.0, resolve@^1.3.2, resolve@^1.3.3, resolve@^1.4.0, resolve@^1.5.0, resolve@^1.8.1:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.12.0.tgz#3fc644a35c84a48554609ff26ec52b66fa577df6"
   dependencies:
     path-parse "^1.0.6"
 
